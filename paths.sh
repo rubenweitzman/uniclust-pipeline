@@ -29,9 +29,10 @@ UCDIR="${SCRIPTPATH}"
 
 PATH="$UCDIR:$UCDIR/annotation:$PATH"
 
-export FASTA="./input.fasta"
-export RELEASE="2016_09"
-export SHORTRELEASE="1609"
+# export FASTA="./input.fasta"
+export FASTA="/n/scratch/users/r/ruw852/databases/protriever//corpora/protein/uniref100.fasta"
+export RELEASE="2024_05"
+export SHORTRELEASE="2405"
 export BASE="output"
 export TARGET="$(abspath ./output/${RELEASE})"
 
